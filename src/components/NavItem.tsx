@@ -1,13 +1,13 @@
 "use client"
 
 import {Button} from "@/components/ui/button";
-import {PRODUCT_CATEGORIES} from "@/config";
+import {PLANT_CATEGORIES} from "@/config";
 import {ChevronDown} from "lucide-react";
 import {cn} from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
-type Category = (typeof PRODUCT_CATEGORIES)[number]
+type Category = (typeof PLANT_CATEGORIES)[number]
 
 interface NavItemProps {
     category: Category
@@ -70,7 +70,7 @@ const NavItem = ({category, handleOpen, isOpen, isAnyOpen}: NavItemProps) => {
                                         <p
                                             className={"mt-1"}
                                             aria-hidden={"true"}>
-                                            Shop now
+                                            More...
                                         </p>
                                     </div>
                                 ))}

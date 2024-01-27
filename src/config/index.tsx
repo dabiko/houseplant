@@ -1,4 +1,4 @@
-export const PRODUCT_CATEGORIES = [
+export const PLANT_CATEGORIES = [
     {
         label: "Plants",
         value: "plants" as const,
@@ -6,17 +6,17 @@ export const PRODUCT_CATEGORIES = [
             {
                 name: "Editor picks",
                 href: `#`,
-                imageSrc: "/nav/ui-kits/mixed.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/ui-kits/blue.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "Bestsellers",
                 href: "#",
-                imageSrc: "/nav/ui-kits/purple.jpg",
+                imageSrc: "/pending.png",
             },
         ],
     },
@@ -25,19 +25,19 @@ export const PRODUCT_CATEGORIES = [
         value: "apartments" as const,
         featured: [
             {
-                name: "Editor picks",
+                name: "app picks",
                 href: `#`,
-                imageSrc: "/nav/ui-kits/mixed.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/ui-kits/blue.jpg",
+                imageSrc: "/pending.png",
             },
             {
-                name: "Bestsellers",
+                name: "Latest Updates",
                 href: "#",
-                imageSrc: "/nav/ui-kits/purple.jpg",
+                imageSrc: "/pending.png",
             },
         ],
     },
@@ -46,19 +46,19 @@ export const PRODUCT_CATEGORIES = [
         value: "watering" as const,
         featured: [
             {
-                name: "Editor picks",
+                name: "app picks",
                 href: `#`,
-                imageSrc: "/nav/ui-kits/mixed.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/ui-kits/blue.jpg",
+                imageSrc: "/pending.png",
             },
             {
-                name: "Bestsellers",
+                name: "Latest Updates",
                 href: "#",
-                imageSrc: "/nav/ui-kits/purple.jpg",
+                imageSrc: "/pending.png",
             },
         ],
     },
@@ -67,19 +67,19 @@ export const PRODUCT_CATEGORIES = [
         value: "history" as const,
         featured: [
             {
-                name: "Editor picks",
+                name: "app picks",
                 href: `#`,
-                imageSrc: "/nav/ui-kits/mixed.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/ui-kits/blue.jpg",
+                imageSrc: "/pending.png",
             },
             {
-                name: "Bestsellers",
+                name: "Latest Updates",
                 href: "#",
-                imageSrc: "/nav/ui-kits/purple.jpg",
+                imageSrc: "/pending.png",
             },
         ],
     },
@@ -88,19 +88,19 @@ export const PRODUCT_CATEGORIES = [
         value: "users" as const,
         featured: [
             {
-                name: "Favorite Icon Picks",
+                name: "Favorite plants",
                 href: `#`,
-                imageSrc: "/nav/icons/picks.jpg",
+                imageSrc: "/pending.png",
             },
             {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/icons/new.jpg",
+                imageSrc: "/pending.png",
             },
             {
-                name: "Bestselling Icons",
+                name: "Updates",
                 href: "#",
-                imageSrc: "/nav/icons/bestsellers.jpg",
+                imageSrc: "/pending.png",
             },
         ],
     },

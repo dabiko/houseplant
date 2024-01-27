@@ -5,19 +5,19 @@ import {ArrowDownToLine, CheckCircle, Leaf} from "lucide-react";
 
 const caption = [
     {
-        name: "Instant Delivery",
+        name: "History",
         icon: ArrowDownToLine,
-        description: "Get it delivered to you"
+        description: "Download all your plant History"
     },
     {
-        name: "Apartment One",
+        name: "Apartments ",
         icon: CheckCircle,
-        description: "Get it delivered for them"
+        description: "Navigate all your apartments"
     },
     {
-        name: "Apartment Planet",
+        name: "Plant Schedules",
         icon: Leaf,
-        description: "still thinking of the contents"
+        description: "Brows plants scheduled for watering"
     }
 ];
 
@@ -28,7 +28,7 @@ export default function Home() {
             <div className={"py-20 mx-auto text-center flex flex-col items-center max-w-3xl"}>
                 <h1 className={"text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"}>
                     Your House Plant Management :
-                    <span className={"text-blue-600"}> Web Application </span>
+                    <span className={"text-green-600"}> Web Application </span>
                 </h1>
                 <p className={"mt-6 text-lg max-w-prose text-muted-foreground"}>
                     Welcome to Plant Management.
@@ -55,7 +55,7 @@ export default function Home() {
                                className={"text-center md:flex md:items-start md:text-left lg:block lg:text-center"}>
                               <div className={"md:flex-shrink-0 flex justify-center"}>
                                   <div
-                                      className={"h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-900"}>
+                                      className={"h-16 w-16 flex items-center justify-center rounded-full bg-green-100 text-green-900"}>
                                       {<caption.icon className={"w-1/3 h-1/3"}/>}
                                   </div>
                               </div>
